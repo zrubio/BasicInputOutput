@@ -11,15 +11,15 @@
         android:id="@+id/inputName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_marginLeft="14dp"
         android:layout_marginStart="14dp"
         android:layout_marginTop="13dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Write something" />
 
     <Button
         android:id="@+id/button"
@@ -29,5 +29,5 @@
         android:layout_alignStart="@+id/inputName"
         android:layout_below="@+id/inputName"
         android:layout_marginTop="22dp"
-        android:text="Button" />
+        android:text="Send" />
 </RelativeLayout>
